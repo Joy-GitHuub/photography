@@ -1,2 +1,16 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+
+.card{
+    transition: .7s ease;
+}
+.card:hover{
+    transform: scale(.8) ;
+    
+}
+.btn{
+    transition: .9s ease;
+}
+.btn:hover{
+    transform: scale(1.5);
+}
