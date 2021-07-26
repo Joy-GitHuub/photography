@@ -33,7 +33,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link " href="#">About Us</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -41,16 +41,10 @@
                             Dropdown
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">My-Album</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
 
@@ -114,8 +108,8 @@
     <main>
         <section class="container my-5">
             <div class="d-flex flex-column align-items-center">
-                <h1> <span class="text-primary">About</span> <span class="text-info ">Us</span></h1>
-                <hr class="w-50 py-1 rounded ">
+                <h1 class="font"> <span class="text-primary ">About</span> <span class="text-info ">Us</span></h1>
+                <hr class="w-25 py-1 rounded ">
             </div>
 
 
@@ -203,10 +197,10 @@
         <section class="container my-5 ">
 
             <div class="text-center my-5">
-                <h1>My<span class="text-primary">-Album</span></h1>
-                <hr class="w-50 m-auto py-1 rounded-3 bg-info">
+                <h1 class="font mb-4">My<span class="text-primary">-Album</span></h1>
+                <hr class="w-25 m-auto  py-1 rounded-3 bg-primary">
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
                 <div class="col ">
                     <div class="card p-3 border-0 ">
                         <img src="/imags/photography/photo-2.jfif" class="card-img-top" alt="..." width="150px"
@@ -244,9 +238,9 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card p-3 border-0">
-                        <img src="/imags/photography/photo-5.jfif" class="card-img-top" alt="..." width="150px"
-                            height="200px">
+                    <div class="card p-3 border-0 ">
+                        <img src="/imags/photography/photo-5.jfif" class="card-img-top img-fluid" alt="..."
+                            width="150px" height="200px">
                         <div class="card-body text-center">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
@@ -281,7 +275,98 @@
                 </div>
             </div>
         </section>
+
+
+        <!-- form -->
+
+
+
+
+        <section class="container my-5">
+            <div class="my-5 text-center">
+                <h1 class="font text-primary mb-4">Fell free to Contact</h1>
+                <hr class="m-auto px-3 py-1 w-25 rounded-3">
+            </div>
+            <div class="row mt-5">
+
+                <div class="col-lg-6">
+                    <img class="mx-auto d-block rounded-3" src="/imags/photography/photograp-3.jfif" alt="" width="410"
+                        height="410">
+                </div>
+                <div class="col-lg-6">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label">State</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>Chittagong</option>
+                                <option>Dhaka</option>
+                                <option>Comila</option>
+                                <option>Nohakhali</option>
+
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="inputZip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Social media -->
+
+        <section class="container  text-center social-media-all bg-light">
+            <h3 class="mb-5 text-primary">All Social Medias</h3>
+            <div class="social-icon ">
+                <a href="#"><img src="/imags/social-media/facebook.png" alt=""></a>
+                <a href="#"><img src="/imags/social-media/instagram.png" alt=""></a>
+                <a href="#"><img src="/imags/social-media/twitter.png" alt=""></a>
+                <a href="#"><img src="/imags/social-media/whatsapp.jfif" alt=""></a>
+
+            </div>
+        </section>
     </main>
+
+    <!-- Footer -->
+
+    <footer class="text-center my-5">
+        <p>&copy; Copy-right Photography-2021 </p>
+    </footer>
 
 
 

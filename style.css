@@ -1,16 +1,38 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.font{
+    font-family: 'Pacifico', cursive;
+}
 .card{
     transition: .7s ease;
+    /* transition: transform 1s ease-out; */
 }
 .card:hover{
     transform: scale(.8) ;
+    /* transform: translate(10px, 20px); */
     
 }
 .btn{
-    transition: .9s ease;
+    transition: 1.1s ease;
+
 }
 .btn:hover{
     transform: scale(1.5);
 }
+.social-icon{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+  .social-icon img {
+    width: 45px;
+    transition: 0.4s;
+  }
+  .social-icon a:hover img {
+    transform: translate(20px);
+    
+  }
+  
+  a {
+      padding-left: 30px;
+  }
